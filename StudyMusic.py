@@ -30,7 +30,7 @@ def disconnect():
 
 playlist_uri = 'spotify:playlist:0vvXsWCC9xrXsKd4FyS8kM'
 play_playlist(playlist_uri)
-timer = int(input('How long would you like to study? '))
-time.sleep(timer)  
+timer = int(input('How long would you like to study?(min) '))
+time.sleep(timer*60)  
 pause_playback()
 disconnect()
